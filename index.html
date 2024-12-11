@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Tracker</h1>
+        <div class="input-section">
+            <input type="text" id="task-input" placeholder="Enter a new task" auto>
+            <input type="date" id="due-date-input" placeholder="Due Date">
+            <input type="time" id="due-time-input" placeholder="Due Time">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <div class="filter-sort-section">
+            <button id="sort-button">Priorities of Tasks</button>
+            <button id="filter-completed">Show Completed</button>
+            <button id="filter-incomplete">Show Incomplete</button>
+        </div>
+        <div class="task-list" id="task-list">
+           
+             <script src="script.js"></script>
+        </div>
+    </div>
+    
+</body>
+</html>
